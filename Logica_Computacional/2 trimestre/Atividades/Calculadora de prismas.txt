@@ -1,0 +1,47 @@
+package revisao;
+
+import javax.swing.JOptionPane;
+
+public class Revisao {
+
+    public static void main(String[] args) {
+        decide();
+    }
+    
+    
+    public static double volomePrisma(){
+        double af = Double.parseDouble(JOptionPane.showInputDialog("face"));
+        double h = Double.parseDouble(JOptionPane.showInputDialog("altura"));
+        double V = af*h;
+    return V;
+    }
+    public static double areaFace(){
+        double v = Double.parseDouble(JOptionPane.showInputDialog("volume"));
+        double h = Double.parseDouble(JOptionPane.showInputDialog("altura"));
+        double af = v/h;
+    return af;
+    }
+    public static double altura() {
+        double af = Double.parseDouble(JOptionPane.showInputDialog("face"));
+        double v = Double.parseDouble(JOptionPane.showInputDialog("volume"));
+        double h = v/af;
+        return h;
+    }
+    public static void decide(){
+        int d = Integer.parseInt(JOptionPane.showInputDialog("1 para volume. 2 para area. 3 para altura"));
+        switch(d){
+            case 1:
+                System.out.println(volomePrisma());
+                break;
+            case 2:
+                System.out.println(areaFace());
+                break;
+            case 3:
+                System.out.println(altura());
+                break;
+            default:
+                decide();
+                break;
+        }
+    }
+}

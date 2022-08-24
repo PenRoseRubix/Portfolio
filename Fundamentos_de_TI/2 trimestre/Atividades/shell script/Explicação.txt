@@ -1,0 +1,2 @@
+Com o READ é possível saber onde deve-se colocar os valores aos parâmetros sem saber o funcionamento total do script.
+Sem READ deveríamos saber onde o que colocar nos parâmetros, porém assim a utilização deste script se torna mais rápida e ocupa menos espaço na tela.

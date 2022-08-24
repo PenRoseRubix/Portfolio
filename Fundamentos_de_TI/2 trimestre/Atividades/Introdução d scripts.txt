@@ -1,0 +1,5 @@
+1 - especifica que o texto a seguir é um script.
+2 - limpa o terminal.
+3 - escreve o texto no primeiro parâmetro ao arquivo no segundo parâmetro.
+4 - digita ao terminal “O arquivo (o nome do arquivo no segundo parâmetro) possui o seguinte texto:”.
+5 - lê o conteúdo do arquivo mencionado no segundo parâmetro.

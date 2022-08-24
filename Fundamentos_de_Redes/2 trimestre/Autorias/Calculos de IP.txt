@@ -1,0 +1,9 @@
+1 Ip: 143.56.218.17/24
+endereço de rede: 143.56.218.0
+numero do dispositivo: 0.0.0.17
+broadcast: 143.56.218.255
+
+2 Ip 22.169.154.2/17
+endereço de rede:22.169.128.0
+numero de dispositivo: 0.0.26.2
+broadcast: 22.169.255.255

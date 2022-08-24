@@ -1,0 +1,7 @@
+#!/bin/bash
+read -p "digite o primeiro valor: " valor1
+read -p "digite p segundo valor: " valor2
+read -p "digite o nome do arquivo: " valor3
+var=$(($valor1 * $valor2))
+echo "$valor1 * $valor2 é igual a: $var" >> $valor3
+cat $valor3

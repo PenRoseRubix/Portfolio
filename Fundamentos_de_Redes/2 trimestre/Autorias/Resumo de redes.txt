@@ -1,0 +1,7 @@
+Pan: uma rede pessoal --> dispositivos conectados ao apple watch
+Lan: Rede local pequena --> Lan house
+Man: uma rede que --> uma rede que concta um casa a outras
+Ran: de uma regionão expecifica --> uma rede que concta uma cidade a outras
+Wan: uma rede mundial --> a internet 
+
+VPN: uma rede anonima
