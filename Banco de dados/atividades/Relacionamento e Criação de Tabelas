@@ -1,0 +1,25 @@
+CREATE TABLE vendedor(
+salario  VARCHAR(8),
+telefone VARCHAR(10),
+nome TEXT VARCHAR(50),
+CPF  VARCHAR(11),
+vendas VARCHAR(200),
+PRIMARY KEY (CPF)
+)
+CREATE TABLE produto (
+  preço VARCHAR(10),
+  tipo VARCHAR(50),
+  nome VARCHAR(20),
+  id VARCHAR(20),
+  CPFVendedor VARCHAR(11),
+  CPFCliente VARCHAR(11),
+  PRIMARY key (id)
+)
+CREATE TABLE cliente (
+  nome VARCHAR(50),
+  CPF VARCHAR(11),
+  nWhatsapp VARCHAR(10),
+  produtoConsumidos VARCHAR(500),
+  PRIMARY key (CPF)
+)
+
