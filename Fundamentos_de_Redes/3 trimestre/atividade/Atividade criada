@@ -1,0 +1,20 @@
+Redes de computadores referem-se a dispositivos de computação interconectados que podem trocar dados e compartilhar recursos entre si. Esses dispositivos em rede usam um sistema de regras, chamados de protocolos de comunicação, para transmitir informações por meio de tecnologias físicas ou sem fio. 
+https://aws.amazon.com/pt/what-is/computer-networking/
+
+Redes podem ser organizadas em diferentes arquiteturas, uma dessas arquiteturas e o sistema distribuído. 
+As características de um sistema distribuído são:
+
+I - Possui mais de um caminho para os dados passarem.
+II - Por ter mais de um ponto central, detectar erros se torna mais difícil.
+III - Esse sistema e ainda mais difícil de se fazer do que o sistema centralizado
+IV - Por ter mais pontos centrais, a uma entrada maior de dados, causando mais congestionamento.
+
+Das frases acima, são verdadeiras somente a(as):
+II e IV
+I, III e IV
+I e III <<<<
+II III
+I, II e III
+
+
+
