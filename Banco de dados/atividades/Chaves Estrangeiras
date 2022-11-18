@@ -1,0 +1,33 @@
+CREATE TABLE Produto (
+  preço VARCHAR(10),
+  tipo VARCHAR(50),
+  nome VARCHAR(20),
+  identificador VARCHAR(20),
+  CPFVendedor VARCHAR(11),
+  CPFCliente VARCHAR(11),
+  PRIMARY key (identificador)
+)
+
+CREATE TABLE Vendedor(
+salario VARCHAR(8),
+telefone VARCHAR(10),
+nome VARCHAR(50),
+CPF VARCHAR(11),
+vendas VARCHAR(200),
+PRIMARY KEY (CPF),
+ID_Produto VARCHAR(10) NOT NULL,
+FOREIGN KEY (ID_Produto)
+References Produto (identificador)
+)
+
+CREATE TABLE Cliente (
+  nome VARCHAR(50),
+  CPF VARCHAR(11),
+  Whatsapp VARCHAR(10),
+  produtoConsumidos VARCHAR(500),
+  Foreign KEY (produtoConsumidos)
+  REFERENCEs Produto (identificador),
+  PRIMARY key (CPF)
+)
+
+
