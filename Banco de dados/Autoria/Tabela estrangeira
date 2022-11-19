@@ -1,0 +1,21 @@
+CREATE TABLE Dono(
+  nome VARCHAR(40),
+  CPF VARCHAR(11) not NULL,
+  idade VARCHAR(3),
+  PRIMARY key (CPF)
+);
+CREATE TABLE produto(
+  nome VARCHAR(20),
+  identificador VARCHAR(20) not NULL,
+  preço VARCHAR(10) not null,
+  PRIMARY KEY (identificador)
+);
+CREATE TABLE Loja(
+	Nome VARCHAR(40) NOT NULL,
+  Endereço VARCHAR(40),
+  Dono VARCHAR(11) NOT NULL,
+  produto_vendem VARCHAR(20) not NULL,
+  PRIMARY KEY (Nome),
+  FOREIGN key (Dono) REFERENCES Dono (CPF),
+  FOREIGN key (produto_vendem) REFERENCES produto (identificador)
+);
