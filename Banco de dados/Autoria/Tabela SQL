@@ -1,0 +1,12 @@
+CREATE TABLE Servivo(
+  Nome_comum VARCHAR(20),
+  Nome_cientifico VARCHAR(40)not NULL,
+  Reino VARCHAR(20)not NULL,
+  Filo VARCHAR(20)not NULL,
+  Classe VARCHAR(20)not NULL,
+  Ordem VARCHAR(20)not NULL,
+  Familia VARCHAR(20)not NULL,
+  Genero VARCHAR(20)not NULL,
+  Especie VARCHAR(20)not NULL,
+  PRIMARY KEY (Nome_cientifico)
+);
