@@ -1,0 +1,1 @@
+Eu gosto de fazer esse jogo. Mesmo que tenha cido simples, eu fui um pouco mais alem do do que foi pedido dela e coloquei uma visualização das vidas. 
