@@ -1,0 +1,1 @@
+A parte mais desafiadora foi, obviamente, como fazer subtração de horario e minutos. Porem eu consegui chegar a conclução logica de que eu tinha que transformar as horas em minutos, diminur e trasformar de volta me horas
