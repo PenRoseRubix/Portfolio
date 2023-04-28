@@ -123,8 +123,6 @@ def next_command():
     flip_switch(int(ord(comm[0]) -96) -1, int(comm[1:]) -1)
 
 def flip_switch(cord_h, cord_l):
-    print(cord_h)
-    print(cord_l)
     if cord_h > len(grid)-1 or cord_l > len(grid[0])-1:
         print("move is out of range of the grid")
         return
