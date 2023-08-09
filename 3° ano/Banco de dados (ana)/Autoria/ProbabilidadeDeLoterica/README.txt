@@ -1,2 +1,2 @@
 https://github.com/cemeterydriiver/TrabalhoMtmAnaliseCombProbabilidade
-Isso foi um "extra" para um trabalho de matematica sobre a probabilidade de ganha em uma loterica. O Ash fez um site que simula essa experiencia.
+Isso foi um "extra" para um trabalho de matemática sobre a probabilidade de ganha em uma lotérica. A equipe fez um site que simula essa experiência.
