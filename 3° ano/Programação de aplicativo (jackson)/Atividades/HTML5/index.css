@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center
+}
+.titulo{
+    font-weight: bold;
+}
+#link{
+    color: rgb(0, 195, 254);
+}
+div{
+    float: center;
+    
+}
+img{
+    border-radius: 25%;
+    width: auto;
+    height: 200px;
+    size: 100px;
+}
