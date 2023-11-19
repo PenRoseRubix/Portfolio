@@ -1,0 +1,1 @@
+isso é um arquivo com funções para fazer calculos relacionados a retas. 
